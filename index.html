@@ -4,69 +4,100 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LegacyForce Media</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Resume</li>
-          <li>Templates</li>
-          <li>Shop</li>
-          <li>Contact Us</li>
+    <div class="navigation">
+        <video
+          class="logo"
+          src="/media/LegacyForce Videos.mp4"
+          height="100px"
+          width="100px"
+          autoplay
+        ></video>
+        <ul class="nav-bar">
+          <li><a href="">Home</a></li>
+          <li><a href="/resume.html">Resume</a></li>
+          <li><a href="">Templates</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">Contact Us</a></li>
         </ul>
-      </nav>
-    </header>
+    </div>
     <div class="bio">
       <h1>LegacyForce Media</h1>
       <h3>Helping small businesses access big data</h3>
-      <img
-        src="/public/images/Brewing Conversations.png"
-        alt="LegacyForce Media logo"
-      />
+      <img src="" alt="photo of Shon Rice, Founder" />>
+      <h3>Who Are We</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+        voluptas architecto, nihil, sint earum distinctio nam debitis quasi
+        asperiores neque modi reprehenderit quibusdam ad aliquid necessitatibus
+        optio officiis corporis at?
+      </p>
     </div>
     <div class="services"></div>
     <ul>
-      <h1 class="left">Services</h1>
-      <li class="right">Google Sheets</li>
-      <p>
-        Google Sheet designs and templates that will be for sale and also to be
-        implementated in daily operations
-      </p>
-      <li class="left">Customized Software</li>
-      <p>
-        Software designed and created to help a small business develop in a way
-        that would require a much larger firm with much larger funds
-      </p>
-      <li class="right">Website Development</li>
-      <p>
-        Creating according to the clients specifications a website that drives
-        traffic and promotes their service or business in a manner in which they
-        approve
-      </p>
-      <li class="left">Financial Analysis</li>
-      <p>
-        Utilizing proprietary software to create, calculate, and display in a
-        real time environment the data that the client wishes to be able to see
-        in a manner that aids in the decisions making process
-      </p>
+      <h1>Services</h1>
+      <li class="right">
+        Google Sheets
+        <p>
+          Google Sheet designs and templates that will be for sale and also to
+          be implementated in daily operations
+        </p>
+      </li>
+
+      <li class="left">
+        Customized Software
+        <p>
+          Software designed and created to help a small business develop in a
+          way that would require a much larger firm with much larger funds
+        </p>
+      </li>
+
+      <li class="right">
+        Website Development
+        <p>
+          Creating according to the clients specifications a website that drives
+          traffic and promotes their service or business in a manner in which
+          they approve
+        </p>
+      </li>
+
+      <li class="left">
+        Financial Analysis
+        <p>
+          Utilizing proprietary software to create, calculate, and display in a
+          real time environment the data that the client wishes to be able to
+          see in a manner that aids in the decisions making process
+        </p>
+      </li>
     </ul>
     <div class="contact-me">
-      <h1>Contact Me</h1>
-      <p>
-        Send me a message and we can connect on how to bring your business to
-        the next level
+      <h1>Message Me</h1>
+      <form action="srice@legacyforcemedia.com" method="post">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br>
+        <label for="email">Enter your email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50">
+        Lets start a conversation
+        </textarea><br>
+        <input type="submit" value="Submit"><br>
+      </form>
       </p>
     </div>
   </body>
   <footer>
     <nav>
-      <ul>
-        <li>Home</li>
-        <li>Resume</li>
-        <li>Templates</li>
-        <li>Shop</li>
-        <li>Contact Us</li>
+      <ul class="nav-bar">
+        <li><a href="">Home</a></li>
+          <li><a href="">Resume</a></li>
+          <li><a href="">Templates</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">Contact Us</a></li>
       </ul>
     </nav>
   </footer>
