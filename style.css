@@ -1,41 +1,65 @@
 .logo {
   float: inline-start;
+  border-radius: 75px;
 }
 .navigation {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   font-size: 17px;
   border: 2px, solid, red;
 }
+h3 {
+  text-align: center;
+}
 .bio {
   border: 2px, solid, green;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
-.bio-text {
-  width: 300px;
+.bio > * {
+  width: 500px;
+  border: 2px solid red;
+  flex-basis: 300px;
+  margin: 15px;
 }
-.bio-photo {
-  width: 300px;
-}
+
 .services {
   border: 2px, solid, blue;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+}
+/* > is used in order to have the children of the parent selector and I am selecting them all */
+.services > * {
   display: flex;
-  justify-content: space-around;
-  align-items: baseline;
+  flex-wrap: wrap;
+  width: 75%;
+  border: 2px solid peru;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio {
+  border: 2px, solid, blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-content: space-around;
-  gap: 20px;
+  text-align: center;
+  gap: 1rem;
   padding: 3%;
+}
+/* > is used in order to have the children of the parent selector and I am selecting them all */
+.portfolio > * {
+  flex-basis: 25%;
+  border: 2px solid peru;
 }
 .services,
 h1 {
   text-align: center;
-}
-.sb-us {
-  border: 2px solid peru;
 }
 .contact-me {
   display: flex;
