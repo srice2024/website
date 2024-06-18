@@ -32,6 +32,7 @@ h3 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 5px;
+  margin-left: 100px;
 }
 /* > is used in order to have the children of the parent selector and I am selecting them all */
 .services > * {
