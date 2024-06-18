@@ -1,0 +1,39 @@
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: larger;
+}
+a:link {
+  text-decoration: none;
+}
+.blog-introduction {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left-intro {
+  text-align: center;
+}
+.right-intro {
+  text-align: center;
+}
+.blog-navigation ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.blog-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: larger;
+}
